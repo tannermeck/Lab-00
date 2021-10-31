@@ -1,0 +1,27 @@
+{
+  "name": "webpack-lab",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:1": "node grade.js 1",
+    "test:2": "node grade.js 2",
+    "test:3": "node grade.js 3",
+    "test:4": "node grade.js 4",
+    "test:5": "node grade.js 5",
+    "test:6": "node grade.js 6",
+    "test": "node grade.js all",
+    "grade": "npm test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  },
+  "dependencies": {
+    "@babel/core": "^7.15.5"
+  }
+}
